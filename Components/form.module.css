@@ -1,0 +1,43 @@
+.container{
+    border-style:solid;
+    border-color: aquamarine;
+    border-radius: 50px;
+    background-color: whitesmoke;
+    color: black;
+    margin-top:40px;
+    margin-left:  25%;
+    margin-right: 25%;
+    text-shadow: 0px 0px 0.80rem aquamarine;
+    filter: drop-shadow(2px 2px 0.90rem aquamarine);
+    overflow:hidden;
+}
+.bigWrapper{
+    margin-left: 5px;
+    margin-right: 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.wrapper{
+    border-style:solid;
+    border-color: aquamarine;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    color: black;
+    margin-top:20px;
+    margin-left: 20px;
+    max-width: 60%;
+    overflow-wrap: break-word;
+    text-shadow: 0px 0px 0.80rem aquamarine;
+    filter: drop-shadow(2px 2px 0.90rem aquamarine);
+    text-align: center;
+}
+#number{
+text-align: center;
+text-shadow: 2px 2px 0.95rem rgba(226, 14, 14, 0.918);
+}
+.container form{
+    padding: 20px;
+     margin-left: 35%;
+    margin-right: 35%; 
+}
